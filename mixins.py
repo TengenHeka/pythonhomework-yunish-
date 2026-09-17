@@ -23,4 +23,4 @@ class User(LoggerMixin, SerializerMixin):
 
 if __name__ == "__main__":
     print("--- Initializing User Class (Triggering LoggerMixin) ---")
-    user = User(username="adsuhag", email="suhag@example.com", role="Student")
+    user = User(username="adyunish", email="yunish@example.com", role="Student")
