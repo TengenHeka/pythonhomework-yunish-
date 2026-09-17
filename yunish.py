@@ -33,7 +33,7 @@ class PayPalPayment(PaymentGetway):
 
 if __name__ =="__main__":
         print("--- Testing Credit Card Payment ---")
-        cc__payment=CreditCardPayment("123456789","Suhag")
+        cc__payment=CreditCardPayment("123456789","Yunish")
         cc__payment.pay(150.00)
         cc__payment.refund(50.00)
         print("\n-- Testing PayPal Payment ---")
@@ -148,7 +148,7 @@ faculty = {
 }
 
 students = {
-    "name": {"Suhag", "Nirajan"},
+    "name": {"Yunish", "Nirajan"},
     "course": ["Python", "Java", "C++"],
     "principal": ["Mr. Sharma", "Mrs. Singh"]
 }
@@ -175,7 +175,7 @@ print(txt)
 txt="I love playing sports,I can play football and basketball"
 print(txt.rpartition("and"))
 
-title="Hello,My name is Suhag"
+title="Hello,My name is Yunish"
 print(title.title())
 
 swap="Hello,My name is Yunish"
