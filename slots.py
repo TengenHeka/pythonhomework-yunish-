@@ -11,6 +11,6 @@ if __name__ == "__main__":
  	print(f"Created person: {p.name}, Age: {p.age}")
  	print("\nAttempting to add 'email' attribute...")
 try:
-        p.email = "nirajan@example.com"
+        p.email = "yunish@example.com"
 except AttributeError as e:
  	print(f"Error Caught successfully: {e}")
