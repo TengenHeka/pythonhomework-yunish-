@@ -148,9 +148,9 @@ faculty = {
 }
 
 students = {
-    "name": {"Yunish", "Nirajan"},
+    "name": {"Yunish", "Rustam"},
     "course": ["Python", "Java", "C++"],
-    "principal": ["Mr. Sharma", "Mrs. Singh"]
+    "principal": ["Mr. Gurung", "Mrs. Karishma"]
 }
 
 print(students["name"])
