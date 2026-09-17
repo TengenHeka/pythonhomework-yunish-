@@ -7,10 +7,10 @@ class Person:
         self.age = age
 
 if __name__ == "__main__":
-	p = Person("Suhag", 18)
-	print(f"Created person: {p.name}, Age: {p.age}")
-	print("\nAttempting to add 'email' attribute...")
+ 	p = Person("Yunish", 18)
+ 	print(f"Created person: {p.name}, Age: {p.age}")
+ 	print("\nAttempting to add 'email' attribute...")
 try:
         p.email = "nirajan@example.com"
 except AttributeError as e:
-	print(f"Error Caught successfully: {e}")
+ 	print(f"Error Caught successfully: {e}")
