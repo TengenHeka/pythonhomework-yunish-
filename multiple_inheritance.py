@@ -4,7 +4,7 @@
 
 class A:
     def info(self):
-        print("Nirajan")
+        print("Yunish")
 
 class B():
     def info(self):
