@@ -37,7 +37,7 @@ if __name__ =="__main__":
         cc__payment.pay(150.00)
         cc__payment.refund(50.00)
         print("\n-- Testing PayPal Payment ---")
-        paypal_payment= PayPalPayment("suhagadhikari@gmail.com")
+        paypal_payment= PayPalPayment("yunishgurung@gmail.com")
         paypal_payment.pay(50.00)
 
         paypal_payment.refund(20.00)
@@ -178,5 +178,5 @@ print(txt.rpartition("and"))
 title="Hello,My name is Suhag"
 print(title.title())
 
-swap="Hello,My name is Suhag"
+swap="Hello,My name is Yunish"
 print(swap.swapcase())
